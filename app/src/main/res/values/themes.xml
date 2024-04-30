@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Otuoma_SkyWatch_WeatherApp_S2110913" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- Example: Light theme colorPrimary -->
+<!--        <item name="colorPrimary">@color/white</item>-->
+        <item name="android:windowBackground">@color/greyish</item>
+        <item name="colorOnBackground">@color/black</item>
+        <!-- Add more light theme customizations here -->
+    </style>
+
+    <style name="Theme.Otuoma_SkyWatch_WeatherApp_S2110913" parent="Base.Theme.Otuoma_SkyWatch_WeatherApp_S2110913" />
+</resources>

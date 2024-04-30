@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="spinnerLocation" type="id"/>
+    <item name="textWeatherType" type="id"/>
+    <item name="textDate" type="id"/>
+    <item name="textTime" type="id"/>
+    <item name="textTemperature" type="id"/>
+    <item name="textWindSpeed" type="id"/>
+    <item name="textHumidity" type="id"/>
+    <item name="textPressure" type="id"/>
+    <item name="textVisibility" type="id"/>
+
+
+
+    <item name="textViewSkyWatch" type="id"/>
+    <item name="buttonGetStarted" type="id"/>
+    <item name="textViewSkipToMainPage" type="id"/>
+    <item name="buttonSettings" type="id"/>
+    <item name="imageWeatherIcon" type="id"/>
+    <item name="imageBox1Icon" type="id"/>
+    <item name="textBox1Info" type="id"/>
+    <item name="imageBox2Icon" type="id"/>
+    <item name="textBox2Info" type="id"/>
+    <item name="imageWeatherConditionIcon" type="id"/>
+    <item name="textWeatherConditionInfo" type="id"/>
+    <item name="imageHomeIcon" type="id"/>
+    <item name="imageThreeDayForecastIcon" type="id"/>
+    <item name="imageViewWindIcon" type="id"/>
+    <item name="textWindSpeedLabel" type="id"/>
+
+    <!--today-->
+    <item name="imageWeatherIcon1" type="id"/>
+    <item name="todayLabel" type="id"/>
+    <item name="todayWeather" type="id"/>
+    <item name="temperatureMax" type="id"/>
+    <item name="temperatureMin" type="id"/>
+
+    <!-- Tomorrow -->
+    <item name="tomorrow_imageWeatherIcon" type="id"/>
+    <item name="tomorrowLabel" type="id"/>
+    <item name="tomorrowWeather" type="id"/>
+    <item name="tomorrowTemperatureMax" type="id"/>
+    <item name="tomorrowTemperatureMin" type="id"/>
+
+    <!-- Later -->
+    <item name="later_imageWeatherIcon" type="id"/>
+    <item name="laterLabel" type="id"/>
+    <item name="laterWeather" type="id"/>
+    <item name="laterTemperatureMax" type="id"/>
+    <item name="laterTemperatureMin" type="id"/>
+</resources>

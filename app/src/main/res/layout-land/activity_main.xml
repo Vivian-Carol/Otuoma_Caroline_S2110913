@@ -1,0 +1,50 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/download">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textViewSkyWatch"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="SkyWatch"
+            android:textColor="@android:color/white"
+            android:textSize="60dp" />
+
+        <Button
+            android:id="@+id/buttonGetStarted"
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewSkyWatch"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/framelayout_bg"
+            android:padding="4dp"
+            android:text="Get Started"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textViewSkipToMainPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skip to main page"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:layout_below="@id/buttonGetStarted"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp" /> <!-- Added margin top -->
+
+    </RelativeLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
