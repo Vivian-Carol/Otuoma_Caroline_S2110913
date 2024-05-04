@@ -51,8 +51,7 @@
         <activity
             android:name=".views.SettingsActivity"
             android:theme="@style/Base.Theme.Otuoma_SkyWatch_WeatherApp_S2110913">
-            <!-- Intent filters if any -->
-        </activity>
+            <!-- Intent filter
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyBqXaOAd_xmBw0f6GBBW_2WCUqfvohxiLw"/>
