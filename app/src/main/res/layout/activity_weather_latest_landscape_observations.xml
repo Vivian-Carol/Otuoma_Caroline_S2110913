@@ -7,6 +7,25 @@
     android:background="@color/greyish"
     tools:context=".views.WeatherLatestObservationsActivity">
 
+    <!--otuoma_caroline_s2110913-->
+
+    <RelativeLayout
+        android:id="@+id/layoutTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textViewTop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="otuoma_caroline_s2110913"
+            android:textColor="?attr/colorOnBackground"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
     <Spinner
         android:id="@+id/spinnerLocation"
         android:layout_width="719dp"
@@ -15,7 +34,7 @@
         android:spinnerMode="dropdown"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/layoutTop" />
 
     <ScrollView
         android:layout_width="0dp"
